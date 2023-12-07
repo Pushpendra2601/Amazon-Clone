@@ -1,0 +1,26 @@
+.navbar-brand,.nav-link{
+    color: white;
+  }
+  .card{
+    display:inline-block;
+    margin-left:70px;
+    margin-bottom:30px;
+  }
+  .carousel-control-prev,.carousel-control-next{
+    margin-bottom: 320px;
+  }
+  .d-flex{
+    margin: auto;
+    
+  }
+  .carousel-inner{
+    position: relative;
+  }
+  .all{
+    position: absolute;
+    top: 400px;
+  }
+  .car-crsl{
+    display:ruby-base-container;
+    bottom: 20px;
+  }

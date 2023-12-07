@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+
+    <title>Document</title>
+
+    <style>
+      .navbar-brand,.nav-link{
+        color: white;
+      }
+      .card{
+        
+        display:inline-block;
+        margin-left:70px;
+        margin-bottom:30px;
+      }
+      .carousel-control-prev,.carousel-control-next{
+        margin-bottom: 320px;
+      }
+      .d-flex{
+        margin: auto;
+        
+      }
+      .carousel-inner{
+        position: relative;
+      }
+      .all{
+        position: absolute;
+        /* border: 5px solid black; */
+        top: 400px;
+      }
+      .car-crsl{
+        /* display:block; */
+        /* bottom: 20px; */
+        border: 5px solid green;
+      }
+      
+      
+      
+
+
+    </style>
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="navbar sticky-bottom navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">amazoz.in</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">
+                  <div class="loc" id="delivery">Delivery to pune 411037</div>
+                    <div class="updt-location" id="updt">Update Location</div>
+                </a> 
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">En</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hindi</a></li>
+                  <li><a class="dropdown-item" href="#">Kannad</a></li>
+                  <li><a class="dropdown-item" href="#">Gujrati</a></li>
+                  <li><a class="dropdown-item" href="#">Bengali</a></li>
+                  <li><a class="dropdown-item" href="#">Telgu</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">All</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">All catagories</a></li>
+                  <li><a class="dropdown-item" href="#">Alexa skills</a></li>
+                  <li><a class="dropdown-item" href="#">Amazon device</a></li>
+                  <li><a class="dropdown-item" href="#">Amazon fashion</a></li>
+                  <li><a class="dropdown-item" href="#">Amazon pharmacy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+              
+              
+              
+              
+            </ul>
+            <form class="d-flex" role="search">
+                <!-- <span class="input-group-text" id="basic-addon1">All</span> -->
+              <input class="form-control my-2" type="search" placeholder="Search" aria-label="Search">
+              <!-- <button class=" -outline-success" type="submit">Search</button> -->
+            </form>
+          </div>
+        </div>
+    </nav>
+  
+      <!-- carousels -->
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+         <!--<div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2500">
+            <img src="./imh1.jpg" class="d-block w-100" alt="carousel">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="./img2.jpg" class="d-block w-100" alt="carousel">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="./img3.jpg" class="d-block w-100" alt="carousel">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="./img4.jpg" class="d-block w-100" alt="carousel">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="./img5.jpg" class="d-block w-100" alt="carousel">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="./img6.jpg" class="d-block w-100" alt="carousel">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="./img7.jpg" class="d-block w-100" alt="carousel">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button " data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button " data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!--Cards-->
+    <div class="all">
+      <div class="card" style="width: 18rem;">
+        <img src="./card1.png" class="card-img-top" alt="Shoes/Bags">
+        <div class="card-body">
+          <h5 class="card-title">Starting from 199 | Shoes & Handbags</h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class=" btn-primary">See details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./card2.png" class="card-img-top" alt="amazon brand">
+        <div class="card-body">
+          <h5 class="card-title">Upto 70% off | Deals on amazon brand & more </h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class=" btn-primary">See details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./card3.png" class="card-img-top" alt="headphones">
+        <div class="card-body">
+          <h5 class="card-title">Starting from 349 | Festive deals on headphones</h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class=" btn-primary">See details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./card4.png" class="card-img-top" alt="Shoes/Bags">
+        <div class="card-body">
+          <h5 class="card-title">Min 50% off | Restyle your home</h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class=" btn-primary">See details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./card5.png" class="card-img-top" alt="smrtphn">
+        <div class="card-body">
+          <h5 class="card-title">Deals on smartphones that suits your budget</h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class=" btn-primary">See details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./card6.png" class="card-img-top" alt="Shoes/Bags">
+        <div class="card-body">
+          <h5 class="card-title">Children's books , toys &more | starting from 79</h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class="btn-primary">See details</a>
+        </div>
+      </div> 
+      <div class="card" style="width: 18rem;">
+        <img src="./card3.png" class="card-img-top" alt="headphones">
+        <div class="card-body">
+          <h5 class="card-title">Starting from 349 | Festive deals on headphones</h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class=" btn-primary">See details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./card3.png" class="card-img-top" alt="headphones">
+        <div class="card-body">
+          <h5 class="card-title">Starting from 349 | Festive deals on headphones</h5>
+          <!-- <p class="card-text"></p> -->
+          <a href="#" class=" btn-primary">See details</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!--card carousel-->
+    <!-- <div class="car-crsl">
+      <div class="card mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      
+      <div class="card text-end" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div> -->
+
+
+      
+    
+
+
+    
+</body>
+</html>
